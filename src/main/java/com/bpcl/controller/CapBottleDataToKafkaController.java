@@ -21,6 +21,9 @@ public class CapBottleDataToKafkaController {
 	public void senttokafka(@RequestBody CBDataDTO data)
 	
 	{
+		
+		System.out.println("This is new commit");
+		
 		CBService.sendMessage(data);
 		
 	}
