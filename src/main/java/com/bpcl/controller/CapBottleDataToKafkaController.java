@@ -28,4 +28,14 @@ public class CapBottleDataToKafkaController {
 		
 	}
 
+	
+	public void kalyan2(@RequestBody CBDataDTO data)
+	
+	{
+		
+		System.out.println("This is new kalyan2");
+		
+		CBService.sendMessage(data);
+		
+	}
 }
