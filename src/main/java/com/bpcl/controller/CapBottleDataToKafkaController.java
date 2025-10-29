@@ -24,18 +24,22 @@ public class CapBottleDataToKafkaController {
 		
 		System.out.println("This is new commit");
 		
+		
 		CBService.sendMessage(data);
 		
 	}
 
 	
-	public void kalyan2(@RequestBody CBDataDTO data)
+
+public void subbu2(@RequestBody CBDataDTO data)
 	
 	{
 		
-		System.out.println("This is new kalyan2");
+		System.out.println("This is new subbu2");
+		
 		
 		CBService.sendMessage(data);
 		
 	}
+
 }

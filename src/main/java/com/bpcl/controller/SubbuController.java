@@ -4,7 +4,8 @@ public class SubbuController {
 
 	public void test2() {
 
-		System.out.println("This is subbu");
+		System.out.println("This is subbudddddd");
+		
 
 	}
 
