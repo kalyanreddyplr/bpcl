@@ -42,4 +42,17 @@ public void subbu2(@RequestBody CBDataDTO data)
 		
 	}
 
+
+public void subbu3(@RequestBody CBDataDTO data)
+	
+	{
+		
+		System.out.println("This is new subbu3");
+		
+		
+		CBService.sendMessage(data);
+		
+	}
+
+
 }
