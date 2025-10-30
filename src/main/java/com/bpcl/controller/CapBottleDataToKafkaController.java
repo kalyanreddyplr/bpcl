@@ -21,14 +21,18 @@ public class CapBottleDataToKafkaController {
 	public void senttokafka(@RequestBody CBDataDTO data)
 	
 	{
+<<<<<<< HEAD
 		
 		System.out.println("This is new commit");
 		
 		
+=======
+>>>>>>> 83b6c79 (total COde)
 		CBService.sendMessage(data);
 		
 	}
 
+<<<<<<< HEAD
 	
 
 public void subbu2(@RequestBody CBDataDTO data)
@@ -66,4 +70,6 @@ public void subbu3(@RequestBody CBDataDTO data)
 	}
 
 
+=======
+>>>>>>> 83b6c79 (total COde)
 }
