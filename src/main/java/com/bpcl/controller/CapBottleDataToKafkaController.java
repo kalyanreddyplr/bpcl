@@ -22,16 +22,11 @@ public class CapBottleDataToKafkaController {
 	
 	{
 
-		
-		System.out.println("This is new commit");
-		
-	
-		CBService.sendMessage(data);
+CBService.sendMessage(data);
 		
 	}
 
 
-	
 
 
 
